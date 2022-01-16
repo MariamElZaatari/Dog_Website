@@ -1,0 +1,14 @@
+.rotate {
+  background-color: transparent;
+  transform: rotate(20deg);
+}
+
+
+body{
+    background-color: blueviolet !important;
+
+}
+
+section{
+    background-color: #684afd;
+}
