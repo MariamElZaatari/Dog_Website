@@ -8,10 +8,23 @@ body {
   font-family: sans-serif;
 }
 
-.sectionBackground{
+.sectionBackground {
   background-color: #684afd;
 }
 
 #title a {
   font-weight: 600;
+}
+.titleSection {
+  height: 372px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .titleSection {
+    height: 600px;
+  }
+  .rotate {
+    transform: rotate(0deg);
+  }
 }
