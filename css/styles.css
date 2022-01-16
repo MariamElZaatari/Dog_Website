@@ -3,12 +3,15 @@
   transform: rotate(20deg);
 }
 
-
-body{
-    background-color: blueviolet !important;
-
+body {
+  /* background-color: white !important; */
+  font-family: sans-serif;
 }
 
-section{
-    background-color: #684afd;
+section:nth-child(odd) {
+  background-color: #684afd;
+}
+
+#title a {
+  font-weight: 600;
 }
