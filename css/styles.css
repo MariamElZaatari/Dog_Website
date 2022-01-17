@@ -5,13 +5,17 @@ html {
   padding: 0px;
   overflow-x: hidden;
 }
-.rotate {
-  background-color: transparent;
-  transform: rotate(20deg);
-}
 body {
-  /* background-color: white !important; */
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: bolder !important;
+}
+.navbar-dark .navbar-brand{
+  color:white;
+}
+.navbar-brand{
+  font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 .sectionBackground {
   background-color: #684afd;
@@ -20,8 +24,12 @@ body {
   font-weight: 600;
 }
 .titleSection {
-  height: 372px;
+  height: 370px;
   overflow: hidden;
+}
+.paddingBanner{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .icon:hover{
   color:white
@@ -29,11 +37,23 @@ body {
 .btn-hover-dark:hover{
   background-color: #212529;
 }
-@media only screen and (max-width: 767px) {
+.rotate {
+  background-color: transparent;
+  transform: rotate(20deg);
+}
+@media only screen and (max-width: 768px) {
   .titleSection {
     height: 600px;
   }
   .rotate {
     transform: rotate(0deg);
+  }
+}
+.bannerLeft{
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .bannerLeft{
+    text-align: center;
   }
 }
