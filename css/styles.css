@@ -1,17 +1,21 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .rotate {
   background-color: transparent;
   transform: rotate(20deg);
 }
-
 body {
   /* background-color: white !important; */
   font-family: sans-serif;
 }
-
 .sectionBackground {
   background-color: #684afd;
 }
-
 #title a {
   font-weight: 600;
 }
@@ -19,7 +23,6 @@ body {
   height: 372px;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 767px) {
   .titleSection {
     height: 600px;
