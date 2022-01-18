@@ -8,9 +8,16 @@ html {
 body {
   font-family: 'Poppins', sans-serif !important;
 }
-.extra-bold {
-  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+.sectionBackground {
+  background-color: #684afd;
 }
+.padding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/***************
+ * Title Section *
+ ***************/
 .navbar-dark .navbar-brand{
   color:white;
 }
@@ -19,9 +26,6 @@ body {
   font-weight: bold;
   font-size: 2.5rem;
 }
-.sectionBackground {
-  background-color: #684afd;
-}
 #title a {
   font-weight: 600;
 }
@@ -29,16 +33,20 @@ body {
   height: 583px;
   overflow: hidden;
 }
-.padding{
-  padding-left: 10%;
-  padding-right: 10%;
+/******************************
+ * Left Banner in Title Section *
+ ******************************/
+.bannerLeft{
+  text-align: left;
 }
-.icon:hover{
-  color:white
+@media only screen and (max-width: 768px) {
+  .bannerLeft{
+    text-align: center;
+  }
 }
-.btn-hover-dark:hover{
-  background-color: #212529;
-}
+/*********************************
+ * Image Rotation in Title Section *
+ *********************************/
 .rotate {
   background-color: transparent;
   transform: rotate(25deg);
@@ -59,13 +67,22 @@ body {
     padding-left: 5%;
     padding-right: 5%;
   }
-}
-
-.bannerLeft{
-  text-align: left;
-}
-@media only screen and (max-width: 768px) {
-  .bannerLeft{
-    text-align: center;
+  .rotate {
+    transform: rotate(0deg);
   }
+}
+/******************
+ * Features Section *
+ ******************/
+.icon-color{
+  color:#684afd;
+}
+/****************
+ * Footer Section *
+ ****************/
+.icon:hover{
+  color:white
+}
+.btn-hover-dark:hover{
+  background-color: #212529;
 }

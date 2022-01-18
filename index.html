@@ -6,106 +6,116 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dog Dating Website</title>
+  <!-- CSS styles -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!--Start of Title Section-->
-  <section class="sectionBackground titleSection container-fluid pt-5" id="title">
-    <div class="padding">
-      <div class="row">
-        <!-- Nav Bar -->
-        <div class="col-md-12">
-          <nav class="navbar navbar-expand-md navbar-dark">
-            <p class="navbar-brand fs-1 fw-bold">MyApp</p>
-            <!--Collapsed Nav Bar Button-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Nav Bar List-->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto text-center">
-                <!--Nav Bar Item 1-->
-                <li class="nav-item active px-3 pb-3 fs-5">
-                  <a class="nav-link" href="#footer">Contact</a>
-                </li>
-                <!--Nav Bar Item 1-->
-                <li class="nav-item px-3 pb-3 fs-5">
-                  <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <!--Nav Bar Item 1-->
-                <li class="nav-item px-3 pb-3 fs-5">
-                  <a class="nav-link" href="#cta">Download</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <!--End of Nav Bar-->
 
-        <!--Title-->
-        <div class="row mt-5">
-          <!--Slogan-->
-          <div class="col-md-6 bannerLeft">
-            <p class="display-4 fw-bolder text-white lh-base">Meet dog next door.</p>
-            <!--Download buttons with icons-->
-            <button class="btn btn-dark btn-lg mt-2" type="button"><i class="fab fa-apple"></i>
-              Download</button>
-            <button class="btn btn-outline-light btn-lg mt-2" type="button"><i class="fab fa-google-play"></i> Download</button>
+  <!-- Start of Title Section -->
+  <section class="sectionBackground titleSection container-fluid pt-5" id="title">
+    <div class="row padding">
+
+      <!-- Start of Nav Bar -->
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <!-- App Name -->
+          <p class="navbar-brand fs-1 fw-bold">MyApp</p>
+          <!-- Collapsed Nav Bar Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav Bar List -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <!-- Start of Nav Bar Items -->
+            <ul class="navbar-nav mr-auto text-center">
+              <!-- Nav Bar Item 1 -->
+              <li class="nav-item active px-3 pb-3 fs-5">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <!-- Nav Bar Item 2 -->
+              <li class="nav-item px-3 pb-3 fs-5">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <!-- Nav Bar Item 3 -->
+              <li class="nav-item px-3 pb-3 fs-5">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+            <!-- End of Nav Bar Items -->
           </div>
-          <!--Rotated Image-->
-          <div class="col-md-6 rotate overflow-hidden text-center">
-            <img width="300px" src="images/app.png">
-          </div>
-        </div>
-        <!--End of Title-->
+          <!-- End of Nav Bar List -->
+        </nav>
       </div>
+      <!-- End of Nav Bar -->
+
+      <!-- Start of Title Banner -->
+      <div class="row mt-5">
+
+        <!-- Left Banner -->
+        <div class="col-md-6 bannerLeft">
+          <!-- Title -->
+          <p class="display-4 fw-bolder text-white lh-base">Meet dog next door.</p>
+          <!-- Download Buttons -->
+          <button class="btn btn-dark btn-lg mt-2" type="button"><i class="fab fa-apple"></i>
+            Download</button>
+          <button class="btn btn-outline-light btn-lg mt-2" type="button"><i class="fab fa-google-play"></i>
+            Download</button>
+        </div>
+
+        <!-- Right Banner -->
+        <div class="col-md-6 rotate overflow-hidden text-center">
+          <img width="300px" src="images/app.png">
+        </div>
+
+      </div>
+      <!-- End of Title Banner -->
     </div>
   </section>
-  <!--End of Title Section-->
+  <!-- End of Title Section -->
 
-  <!--Start of Features Section-->
+  <!-- Start of Features Section -->
   <section class="container-fluid mt-5 p-5 mb-5 mt-5" id="features">
 
-    <!--Start of Features: Each feature contains icon, heading, and explanation-->
+    <!-- Start of Features: Each feature contains icon, heading, and explanation -->
     <div class="row text-center padding">
-      <!--Feature 1-->
+      <!-- Feature 1 -->
       <div class="col-md-4 p-5">
-        <i style="color: #684afd;" class="display-1 p-2 fas fa-check-circle"></i>
+        <i class="display-1 p-2 fas fa-check-circle icon-color"></i>
         <h3 class="fw-bold">Feature1</h3>
         <p>Write soemthing here...</p>
       </div>
-      <!--Feature 2-->
+      <!-- Feature 2 -->
       <div class="col-md-4 p-5">
-        <i style="color: #684afd;" class="display-1 p-2 fas fa-bullseye"></i>
+        <i class="display-1 p-2 fas fa-bullseye icon-color"></i>
         <h3 class="fw-bold">Feature2</h3>
         <p>Write soemthing here...</p>
       </div>
-      <!--Feature 3-->
+      <!-- Feature 3 -->
       <div class="col-md-4 p-5">
-        <i style="color: #684afd;" class="display-1 p-2 fas fa-heart"></i>
+        <i class="display-1 p-2 fas fa-heart icon-color"></i>
         <h3 class="fw-bold">Feature3</h3>
         <p>Write soemthing here...</p>
       </div>
-      <!--End of Features-->
     </div>
+    <!-- End of Features -->
   </section>
-  <!--End of Features Section-->
+  <!-- End of Features Section -->
 
-  <!--Start of Testimonials Section-->
+  <!-- Start of Testimonials Section -->
   <section class="sectionBackground pt-5 pb-5 container-fluid" id="testimonials">
 
-    <!--Start of Carousel: Each carousel item includes heading, image, and location-->
+    <!-- Start of Carousel: Each carousel item contains heading, image, and location -->
     <div id="carouselControls" class="carousel slide text-center row pt-4 pb-4" data-bs-ride="carousel">
-      <!--Start of Carousel Items-->
+      <!-- Start of Carousel Items -->
       <div class="carousel-inner col-md-12">
-        <!--Carousel Item 1-->
+        <!-- Carousel Item 1 -->
         <div class="carousel-item active">
           <p class="fs-2 fw-bold">Quote 1. Woof.</p>
           <div class="pt-3">
@@ -113,46 +123,53 @@
             <em class="text-white ms-4">Beirut, Lebanon</em>
           </div>
         </div>
-        <!--Carousel Item 2-->
+        <!-- Carousel Item 2 -->
         <div class="carousel-item ">
           <p class="fs-2 fw-bold">Quote 2. Woof.</p>
           <div class="pt-3">
             <img width="80px" class="rounded-circle" src="images/dog-img.jpg">
-            <em style="color: white; margin-left: 15px;">Beirut, Lebanon</em>
+            <em class="text-white ms-4">Beirut, Lebanon</em>
           </div>
         </div>
-        <!--End of Carousel Items-->
+        <!-- End of Carousel Items -->
       </div>
+      <!-- End of Carousel Items -->
 
-      <!--Carousel Pevious/Next Buttons-->
+      <!-- Carousel Pevious Button -->
       <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only"></span>
       </a>
+      <!-- Carousel Next Button -->
       <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only"></span>
       </a>
     </div>
-    <!--End of Carousel-->
+    <!-- End of Carousel -->
   </section>
-  <!--End of Testimonials Section-->
+  <!-- End of Testimonials Section -->
 
-  <!--Start of Press Section-->
-  <section class="container-fluid sectionBackground pt-5 pb-5" id="press">
+  <!-- Start of Press Section -->
+  <section class="container-fluid sectionBackground pt-5 pb-5 mt-n1" id="press">
+
+    <!-- Start of Press Images -->
     <div class="row pb-4 pt-3">
       <div class="col-md-12 text-center">
+        <!-- Press Image 1 -->
         <img width="220px" class="p-3" src="images/mtv-logo.png">
+        <!-- Press Image 2 -->
         <img width="220px" class="p-3" src="images/lbci-logo.png">
       </div>
     </div>
+    <!-- End of Press Images -->
   </section>
-  <!--End of Press Section-->
+  <!-- End of Press Section -->
 
-  <!--Start of Pricing Section-->
+  <!-- Start of Pricing Section -->
   <section class="container-fluid pb-5 pt-5 mb-5" id="pricing">
 
-    <!--Title-->
+    <!-- Title -->
     <div class="row mb-4">
       <div class="text-center col-md-12">
         <p class="fs-2 fw-bold">Packages</p>
@@ -160,16 +177,16 @@
       </div>
     </div>
 
-    <!--Start of Pricing Packages-->
+    <!-- Start of Pricing Packages: Each package(card) contains Title(card-header) and Info (card-body) -->
     <div class="row text-center padding">
-      <!--Package 1-->
+      <!-- Package 1 -->
       <div class="col-md-4 col-sm-6 col-xs-6 pb-5">
         <div class="card">
-          <!--Package Title-->
+          <!-- Package Title -->
           <div class="card-header">
             <p class="fs-3 fw-bold mb-0">Package 1</p>
           </div>
-          <!--Package Info-->
+          <!-- Package Info -->
           <div class="card-body">
             <p class="card-title fw-bold fs-2">Free</p>
             <p class="card-text">5 Matches Per Day</p>
@@ -179,14 +196,14 @@
           </div>
         </div>
       </div>
-      <!--Package 2-->
+      <!-- Package 2 -->
       <div class="col-md-4 col-sm-6 col-xs-6 pb-5">
         <div class="card">
-          <!--Package Title-->
+          <!-- Package Title -->
           <div class="card-header">
             <p class="fs-3 fw-bold mb-0">Package 2</p>
           </div>
-          <!--Package Info-->
+          <!-- Package Info -->
           <div class="card-body">
             <p class="card-title fw-bold fs-2">$29 / mo</p>
             <p class="card-text">Unlimited Matches</p>
@@ -196,14 +213,14 @@
           </div>
         </div>
       </div>
-      <!--Package 3-->
+      <!-- Package 3 -->
       <div class="col-md-4 col-sm-6 col-xs-6 pb-5">
         <div class="card">
-          <!--Package Title-->
+          <!-- Package Title -->
           <div class="card-header">
             <p class="fs-3 fw-bold mb-0">Package 3</p>
           </div>
-          <!--Package Info-->
+          <!-- Package Info -->
           <div class="card-body">
             <p class="card-title fw-bold fs-2">$49 / mo</p>
             <p class="card-text fw-normal">Pirority Listing</p>
@@ -214,20 +231,20 @@
           </div>
         </div>
       </div>
-      <!--End of Pricing Packages-->
+      <!-- End of Pricing Packages -->
     </div>
   </section>
-  <!--End of Pricing Section-->
+  <!-- End of Pricing Section -->
 
-  <!-- Start of Call to Action(CTA) Section-->
+  <!-- Start of CTA Section-->
   <section class="container-fluid sectionBackground pt-5 pb-5" id="cta">
 
-    <!--Slogan-->
+    <!-- Title -->
     <div class="row text-center p-5">
       <p class="col-md-12 display-4 text-white fw-bold text-center">The APP that your dog needs.</p>
     </div>
 
-    <!--Download Buttons-->
+    <!-- Download Buttons -->
     <div class="row text-center">
       <div class="col-md-12">
         <button class="btn btn-dark btn-lg m-3" type="button"><i class="fab fa-apple"></i>
@@ -236,41 +253,56 @@
           Download</button>
       </div>
     </div>
-  </section>
-  <!--End of CTA Section-->
 
-  <!--Start of Footer Section-->
+  </section>
+  <!-- End of CTA Section -->
+
+  <!-- Start of Footer Section -->
   <footer id="footer">
     <div class="container-fluid pb-5 pt-5">
+
+      <!-- Start of Icons Row-->
+      <!-- Screen is split into 3 parts, where the icons are in part 2 (the center part) -->
       <div class="row">
-        <!--Screen split into 3 parts, where the icons are in the center part.-->
+        <!-- Part 1 -->
         <div class="col-md-4"></div>
-        <!--Start of Center Part-->
+        <!-- Part 2 -->
         <div class="col-md-4 d-flex flex-row justify-content-center">
-          <button class="btn btn-hover-dark p-1 m-4" type="button"><i class="fs-3 fab fa-twitter fa-lg icon"></i></button>
-          <button class="btn btn-hover-dark p-1 m-4" type="button"><i class="fs-3 fab fa-facebook-f fa-lg icon"></i></button>
-          <button class="btn btn-hover-dark p-1 m-4" type="button"><i class="fs-3 fab fa-instagram fa-lg icon"></i></button>
-          <button class="btn btn-hover-dark p-1 m-4" type="button"><i class="fs-3 fas fa-envelope fa-lg icon"></i></button>
+          <button class="btn btn-hover-dark p-1 m-4" type="button"><i
+              class="fs-3 fab fa-twitter fa-lg icon"></i></button>
+          <button class="btn btn-hover-dark p-1 m-4" type="button"><i
+              class="fs-3 fab fa-facebook-f fa-lg icon"></i></button>
+          <button class="btn btn-hover-dark p-1 m-4" type="button"><i
+              class="fs-3 fab fa-instagram fa-lg icon"></i></button>
+          <button class="btn btn-hover-dark p-1 m-4" type="button"><i
+              class="fs-3 fas fa-envelope fa-lg icon"></i></button>
         </div>
-        <!--End of Center Part-->
+        <!-- Part 3 -->
         <div class="col-md-4"></div>
       </div>
-      <!--Copyright-->
+      <!-- End of Icons Row-->
+
+      <!-- Copyright -->
       <div class="row">
         <div class="col-md-12 text-center h6 pt-3"><i class="far fa-copyright"></i> Copyright 2022 SEF
         </div>
       </div>
+
     </div>
   </footer>
-  <!--End of Footer Section-->
+  <!-- End of Footer Section -->
 
+  <!--Font Awesome/Icons JS-->
   <script src="https://kit.fontawesome.com/25f9da6183.js" crossorigin="anonymous"></script>
+  <!--Jquery JS-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+  <!-- Popper JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+  <!--Bootstrap JS-->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
